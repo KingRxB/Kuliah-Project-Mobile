@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MantaiAja</string>
+    <string name="have_account_text">Don\'t have account? <font color="#D9BC73">Create now</font></string>
+    <string name="no_account_text">Already have an account? <font color="#D9BC73">Log In</font></string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="menu">Menu</string>
+    <string name="hello_user">Hello, User!</string>
+    <string name="description">Welcome to MantaiAja! This app is designed to help you discover and explore beautiful beaches around the world.</string>
+    <string name="explore_beaches">Explore Beaches</string>
+    <string name="facilities">Facilities</string>
+    <string name="ticket_prices">Ticket Prices</string>
+    <string name="reviews">Reviews</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+
 </resources>

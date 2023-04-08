@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@color/warna1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="-80dp"
+        tools:layout_editor_absoluteY="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create your Account"
+            android:textColor="@color/yellow"
+            android:textSize="53dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="276dp"
+            android:layout_height="275dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15pt"
+            android:src="@drawable/asset1"/>
+
+        <EditText
+            android:key="username"
+            android:layout_gravity="center"
+            android:width="298dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:id="@+id/et_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5pt"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/white"
+            />
+
+        <EditText
+            android:key="email"
+            android:layout_gravity="center"
+            android:width="298dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:id="@+id/et_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5pt"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/white"
+            />
+
+        <EditText
+            android:key="password"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:width="298dp"
+            android:textColorHint="@color/white"
+            android:id="@+id/et_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5pt"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:backgroundTint="@color/white"/>
+        <Button
+            android:layout_gravity="center"
+            android:height="40dp"
+            android:width="298dp"
+            android:id="@+id/signup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D9BC73"
+            android:text="Sign Up" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:text="@string/no_account_text"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:textColorLink="@color/yellow">
+        </TextView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
